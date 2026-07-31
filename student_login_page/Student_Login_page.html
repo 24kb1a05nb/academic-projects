@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Login</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#d9dce3;
+}
+
+/* Top Notice */
+.notice{
+    width:100%;
+    background:#d84a3a;
+    color:white;
+    padding:15px;
+    text-align:center;
+    font-size:18px;
+    font-weight:bold;
+}
+
+/* Container */
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:90vh;
+}
+
+/* Login Box */
+.login-box{
+    width:360px;
+    background:white;
+    padding:30px;
+    border-top:4px solid #29a3ef;
+    box-shadow:0 0 10px rgba(0,0,0,.15);
+}
+
+.logo{
+    text-align:center;
+    font-size:55px;
+    margin-bottom:10px;
+}
+
+h2{
+    text-align:center;
+    color:#555;
+    margin-bottom:25px;
+}
+
+label{
+    display:block;
+    font-weight:bold;
+    margin-bottom:8px;
+    color:#444;
+}
+
+input{
+    width:100%;
+    padding:10px;
+    margin-bottom:8px;
+    border:1px solid #ccc;
+    font-size:15px;
+}
+
+a{
+    text-decoration:none;
+    color:#1f6db3;
+    font-size:14px;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+.buttons{
+    display:flex;
+    justify-content:space-between;
+    margin:20px 0;
+}
+
+.signin{
+    width:48%;
+    padding:10px;
+    background:#1d79c8;
+    color:white;
+    border:none;
+    cursor:pointer;
+    font-size:16px;
+}
+
+.clear{
+    width:48%;
+    padding:10px;
+    background:#eee;
+    border:none;
+    cursor:pointer;
+    font-size:16px;
+}
+
+.option{
+    display:block;
+    width:100%;
+    text-align:center;
+    background:#f7f7f7;
+    border:1px solid #ddd;
+    padding:8px;
+    margin:10px 0;
+    color:#2678c5;
+    font-weight:bold;
+}
+
+.footer{
+    margin-top:20px;
+    text-align:center;
+    font-size:14px;
+}
+
+.footer span{
+    color:red;
+    font-style:italic;
+}
+</style>
+
+</head>
+<body>
+
+<div class="notice">
+I Year students are informed to submit their profiles. No need Registration required, direct Login to Reg. No. & Password. After Login change your password.
+</div>
+
+<div class="container">
+
+<div class="login-box">
+
+<div class="logo">🎓</div>
+
+<h2>Student Login</h2>
+
+<form>
+
+<label>Enter Reg.No.</label>
+<input type="text" placeholder="Enter Reg.No.">
+
+<a href="#">Forgot eMail Id?</a>
+
+<br><br>
+
+<label>Enter Password</label>
+<input type="password" placeholder="Password">
+
+<a href="#">Forgot password?</a>
+
+<div class="buttons">
+<button class="signin">Sign In</button>
+<button type="reset" class="clear">Clear</button>
+</div>
+
+<a href="#" class="option">How to Create Student Account</a>
+
+<a href="#" class="option">Create a New Student Account</a>
+
+<a href="#" class="option">Faculty Login Here</a>
+
+<div class="footer">
+for any issues contact :
+<span>Examination Section</span>
+</div>
+
+</form>
+
+</div>
+
+</div>
+
+</body>
+</html>
